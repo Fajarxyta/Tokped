@@ -43,5 +43,5 @@ def search(url: str) -> str:
 if __name__ == '__main__':
     os.system('clear')
     keyword = console.input(' [bold green]#[bold white] keyword: ')
-    url = 'https://www.tokopedia.com/search?st=&q={}&srp_component_id=02.01.00.00&srp_page_id=&srp_page_title=&navsource='.format(keyword)
+    url = 'https://www.tokopedia.com/search?st=&q={}'.format(keyword)
     search(url=url)
